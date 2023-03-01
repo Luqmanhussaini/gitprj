@@ -6,6 +6,13 @@ code .(opens vs code of current directory)
 git log (all commits till now)
 
 
+touch filename (create fill)
+cat name(display txt)
+cat >name (create and write txt)
+cat >>name(append txt)
+vi name(editor to write)
+
+
 
 1. git config --global user.name "__"
 
@@ -20,7 +27,7 @@ ls -lrt
 ls -ls
 ls -a (to show hidden files)
 ls -la
-touch filename (create fill)
+
 
 
 5. git init  (initialize git for us)
