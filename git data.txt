@@ -1,3 +1,10 @@
+I. CREATING AND COMMITING THE INFO
+
+git branch
+git checkout name
+
+
+
 pwd
 cd ..
 git --version
@@ -38,3 +45,27 @@ git status
    git add .(all changes added)
 
 7. git commit -m "initial version"
+
+
+
+II. TRACKING AND UPDATING THE INFO FROM LOCAL REPO
+
+git diff filename (tracking b/w working directory and staging area)
+
+git diff --staged (filename)or(HEAD~2) or (version code)   (tracking b/w staging area and local repo)
+
+
+
+III. REVERT TO EARLIER COMMIT
+
+git checkout (HEAD~1) or (version code) filename  (moves to that modified commit)
+
+
+IV. DELETING FILES
+
+git rm name (removed from working dir and staging area)
+git rm --cached name (removed from staging area)
+rm name (removed from working directory)
+
+
+
