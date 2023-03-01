@@ -1,5 +1,6 @@
 I. CREATING AND COMMITING THE INFO
-
+git help init
+git help
 git branch
 git checkout name
 
@@ -24,6 +25,10 @@ vi name(editor to write)
 1. git config --global user.name "__"
 
 2. git config --global user.email "__"
+
+git config --local
+git config --unset user.name
+git config --local --remove-section user
 
 3. mkdir name
 
@@ -68,4 +73,14 @@ git rm --cached name (removed from staging area)
 rm name (removed from working directory)
 
 
+V. IGNORING THE FILES
+create file with .gitignore
+
+to add these files:  git add -f filename
+
+
+VI. RENAMING THE FILES
+
+git mv old new (file is renamed)
+mv old new (data moved from old to new and old is deleted)
 
