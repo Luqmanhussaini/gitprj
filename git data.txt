@@ -1,0 +1,33 @@
+pwd
+cd ..
+git --version
+git config --list
+code .(opens vs code of current directory)
+git log (all commits till now)
+
+
+
+1. git config --global user.name "__"
+
+2. git config --global user.email "__"
+
+3. mkdir name
+
+4. cd name
+
+ls
+ls -lrt
+ls -ls
+ls -a (to show hidden files)
+ls -la
+touch filename (create fill)
+
+
+5. git init  (initialize git for us)
+
+git status
+
+6. git add filename
+   git add .(all changes added)
+
+7. git commit -m "initial version"
