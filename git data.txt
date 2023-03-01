@@ -56,7 +56,7 @@ git diff --staged (filename)or(HEAD~2) or (version code)   (tracking b/w staging
 
 
 
-III. REVERT TO EARLIER COMMIT
+III. REVERT TO EARLIER COMMIT & RESTORING FILES
 
 git checkout (HEAD~1) or (version code) filename  (moves to that modified commit)
 
