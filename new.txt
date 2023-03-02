@@ -1,9 +1,10 @@
 updating a new line
-<<<<<<< HEAD
 updating another in git
 added in local
-=======
 updating another in git
 new line in remote
+<<<<<<< HEAD
 >>>>>>> 80bf3d42d3be87861dff99d712e06fd150be1d57
 add it
+=======
+>>>>>>> c3be1ba6851f05ea13e00d2bc9285f84ce9c121a
