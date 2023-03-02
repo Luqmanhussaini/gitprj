@@ -6,3 +6,4 @@ added in local
 updating another in git
 new line in remote
 >>>>>>> 80bf3d42d3be87861dff99d712e06fd150be1d57
+add it
